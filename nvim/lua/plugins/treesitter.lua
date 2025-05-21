@@ -10,4 +10,9 @@ return {
 			indent = { enable = true },  
 		})
 	end,
+	opts = function ()
+		vim.filetype.add({
+			pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
+		})
+	end
 }
