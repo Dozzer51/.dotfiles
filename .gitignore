@@ -1,5 +1,9 @@
 *
 !nvim
 !nvim/*
+!nvim/lua/*
+!nvim/lua/config/*
+!nvim/lua/plugins/*
 !hypr
 !hypr/*
+nvim/lazy-lock.json
