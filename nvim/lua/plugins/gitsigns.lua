@@ -3,24 +3,24 @@ return {
 	config = function()
 		require("gitsigns").setup{
 			signs = {
-				add          = { text = '┃' },
-				change       = { text = '┃' },
-				delete       = { text = '_' },
+				add          = { text = '+', show_count = true },
+				change       = { text = '~', show_count = true },
+				delete       = { text = '-', show_count = true },
 				topdelete    = { text = '‾' },
 				changedelete = { text = '~' },
 				untracked    = { text = '┆' },
 			},
 			signs_staged = {
-				add          = { text = '┃' },
-				change       = { text = '┃' },
-				delete       = { text = '_' },
+				add          = { text = '+', show_count = true },
+				change       = { text = '~', show_count = true },
+				delete       = { text = '-', show_count = true },
 				topdelete    = { text = '‾' },
 				changedelete = { text = '~' },
 				untracked    = { text = '┆' },
 			},
 			signs_staged_enable = true,
 			signcolumn = true,  -- Toggle with `:Gitsigns toggle_signs`
-			numhl      = false, -- Toggle with `:Gitsigns toggle_numhl`
+			numhl      = true, -- Toggle with `:Gitsigns toggle_numhl`
 			linehl     = false, -- Toggle with `:Gitsigns toggle_linehl`
 			word_diff  = false, -- Toggle with `:Gitsigns toggle_word_diff`
 			watch_gitdir = {
@@ -28,12 +28,12 @@ return {
 			},
 			auto_attach = true,
 			attach_to_untracked = false,
-			current_line_blame = false, -- Toggle with `:Gitsigns toggle_current_line_blame`
+			current_line_blame = true, -- Toggle with `:Gitsigns toggle_current_line_blame`
 			current_line_blame_opts = {
 				virt_text = true,
 				virt_text_pos = 'eol', -- 'eol' | 'overlay' | 'right_align'
-				delay = 1000,
-				ignore_whitespace = false,
+				delay = 500,
+				ignore_whitespace = true,
 				virt_text_priority = 100,
 				use_focus = true,
 			},
