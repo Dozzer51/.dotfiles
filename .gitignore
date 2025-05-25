@@ -6,4 +6,6 @@
 !nvim/lua/plugins/*
 !hypr
 !hypr/*
+!kitty
+!kitty/*
 nvim/lazy-lock.json
