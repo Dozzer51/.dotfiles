@@ -10,3 +10,4 @@
 !kitty
 !kitty/*
 nvim/lazy-lock.json
+!.zshrc
