@@ -1,13 +1,13 @@
+#Ignore everything until told otherwise
 *
-!nvim
-!nvim/*
-!nvim/lua/*
-!nvim/lua/config/*
-!nvim/lua/plugins/*
-!hypr
-!hypr/*
-!hypr/config/*
-!kitty
-!kitty/*
-nvim/lazy-lock.json
+
+#Files
 !.zshrc
+
+#Folders
+!nvim
+!nvim/**
+!hypr
+!hypr/**
+!kitty
+!kitty/**
