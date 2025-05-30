@@ -4,7 +4,18 @@ return {
     config = function ()
         local configs = require("nvim-treesitter.configs")
         configs.setup({
-            ensure_installed = { "c", "cpp", "lua", "luadoc", "vim", "vimdoc", "hyprlang" },
+            ensure_installed =
+                {
+                    "c",
+                    "cpp",
+                    "lua",
+                    "luadoc",
+                    "vim",
+                    "vimdoc",
+                    "hyprlang",
+                    "css",
+                    "cmake",
+                },
             sync_install = false,
             highlight = { enable = true },
             indent = { enable = true },  
