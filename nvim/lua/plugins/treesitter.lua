@@ -15,6 +15,8 @@ return {
                     "hyprlang",
                     "css",
                     "cmake",
+                    "json",
+                    "jsonc",
                 },
             sync_install = false,
             highlight = { enable = true },

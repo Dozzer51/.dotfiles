@@ -17,6 +17,7 @@ return {
         require("lspconfig").hyprls.setup{}
         require("lspconfig").cssls.setup{}
         require("lspconfig").cmake.setup{}
+        require("lspconfig").jsonls.setup{}
 
         -- Hyprlang LSP
         vim.api.nvim_create_autocmd({'BufEnter', 'BufWinEnter'}, {
