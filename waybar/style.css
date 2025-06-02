@@ -18,7 +18,8 @@ window#waybar {
     margin-right: 5px;
     padding: 5px 5px 5px 0;
     border-radius: 12px;
-    background: rgba(105, 91, 72, 0.2);
+    border: solid #5e81ac 1px;
+    background: rgba(0x4C, 0x56, 0x6A, 0.2);
 }
 
 #workspaces button {
@@ -26,45 +27,45 @@ window#waybar {
     padding-right: 5px;
     margin-left: 5px;
     border-radius: 12px;
-    color: #9c8c5f;
+    color: #5E81AC;
     transition: all 250ms ease;
 }
 
 #workspaces button.active {
-    color: #ebdbb2;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: rgba(163, 139, 106, 0.2);
+    color: #5E81AC;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgba(0x81, 0xA1, 0xC1, 0.2);
 }
 
 #workspaces button.urgent {
-    color: #ebdbb2;
+    color: #5E81AC;
 }
 
-#window,
 #clock,
 #wireplumber,
 #clock,
 #cpu,
 #memory,
-#tray
-{
+#window,
+#tray {
     margin-top: 5px;
     margin-right: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     border-radius: 12px;
-    background: rgba(105, 91, 72, 0.2);
-    color: #ebdbb2;
+    background: rgba(0x4C, 0x56, 0x6A, 0.2);
+    border: solid #5e81ac 1px;
+    color: #5E81AC;
 }
 
-
-#taskbar {
+#taskbar > :not(emtpy) {
     margin-top: 5px;
     margin-right: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     border-radius: 12px;
-    background: rgba(105, 91, 72, 0.2);
-    color: #ebdbb2;
+    background: rgba(0x4C, 0x56, 0x6A, 0.2);
+    border: solid #5e81ac 1px;
+    color: #5E81AC;
 }
