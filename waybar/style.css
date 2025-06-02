@@ -17,7 +17,7 @@ window#waybar {
     margin-top: 5px;
     margin-right: 5px;
     padding: 5px 5px 5px 0;
-    border-radius: 12px;
+    border-radius: 12px 0 0 12px;
     border: solid #5e81ac 1px;
     background: rgba(0x4C, 0x56, 0x6A, 0.2);
 }
@@ -42,7 +42,6 @@ window#waybar {
     color: #5E81AC;
 }
 
-#clock,
 #wireplumber,
 #clock,
 #cpu,
@@ -56,6 +55,18 @@ window#waybar {
     border-radius: 12px;
     background: rgba(0x4C, 0x56, 0x6A, 0.2);
     border: solid #5e81ac 1px;
+    color: #5E81AC;
+}
+
+#clock {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 12px;
+    background: rgba(0x4C, 0x56, 0x6A, 0.2);
+    border: solid #5e81ac 1px;
+    border-radius: 0 12px 12px 0;
     color: #5E81AC;
 }
 
