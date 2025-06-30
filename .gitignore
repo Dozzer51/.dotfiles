@@ -1,0 +1,15 @@
+#Ignore everything until told otherwise
+*
+
+#Files
+!.zshrc
+
+#Folders
+!nvim
+!nvim/**
+!hypr
+!hypr/**
+!kitty
+!kitty/**
+!waybar
+!waybar/**

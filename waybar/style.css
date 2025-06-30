@@ -1,0 +1,81 @@
+* {
+    min-height: 0;
+    border: none;
+    font-family: "Nerd Font";
+    font-weight: bold;
+    font-size: 12px;
+    transition: background 500ms ease;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+window#waybar {
+    background: none;
+}
+
+#workspaces {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px 5px 5px 0;
+    border-radius: 12px 0 0 12px;
+    border: solid #5e81ac 1px;
+    background: rgba(0x4C, 0x56, 0x6A, 0.2);
+}
+
+#workspaces button {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    border-radius: 12px;
+    color: #5E81AC;
+    transition: all 250ms ease;
+}
+
+#workspaces button.active {
+    color: #5E81AC;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgba(0x81, 0xA1, 0xC1, 0.2);
+}
+
+#workspaces button.urgent {
+    color: #5E81AC;
+}
+
+#wireplumber,
+#clock,
+#cpu,
+#memory,
+#tray {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 12px;
+    background: rgba(0x4C, 0x56, 0x6A, 0.2);
+    border: solid #5e81ac 1px;
+    color: #5E81AC;
+}
+
+#clock {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 12px;
+    background: rgba(0x4C, 0x56, 0x6A, 0.2);
+    border: solid #5e81ac 1px;
+    border-radius: 0 12px 12px 0;
+    color: #5E81AC;
+}
+
+#taskbar > :not(emtpy) {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 12px;
+    background: rgba(0x4C, 0x56, 0x6A, 0.2);
+    border: solid #5e81ac 1px;
+    color: #5E81AC;
+}
